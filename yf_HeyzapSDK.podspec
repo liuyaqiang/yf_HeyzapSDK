@@ -20,7 +20,7 @@ s.requires_arc = true
 s.source           = { :git => "https://github.com/liuyaqiang/yf_HeyzapSDK.git", :tag => "#{s.version}" }
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 s.vendored_frameworks = 'Heyzap/HeyzapAds.framework'
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'AdSupport','WebKit','MessageUI'
-s.libraries = 'xml2', 'sqlite3'
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit','AdSupport','WebKit','MessageUI','MediaPlayer','CoreGraphics','MobileCoreServices','QuartzCore','Security'
+s.libraries = 'sqlite3','xml2'
 
 end
